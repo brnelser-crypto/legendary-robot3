@@ -1,0 +1,16 @@
+export const PRE_TRADE_CHECKS = [
+  'reserve_eligibility',
+  'pool_liquidity',
+  'fee_tier',
+  'callback_support',
+  'gas_sufficiency',
+  'token_approval',
+  'repayment_simulation',
+  'slippage_simulation',
+  'bridge_compatibility',
+  'deadline_viability',
+  'concentrated_liquidity_range',
+  'jit_liquidity_anomaly',
+  'manual_redeem_policy',
+  'stale_state_detection',
+] as const
